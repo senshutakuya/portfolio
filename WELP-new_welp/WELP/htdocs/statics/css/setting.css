@@ -1,0 +1,25 @@
+.icon.createpost {
+    display: none;
+}
+
+.setting {
+    height: 100%;
+    padding: 3%;
+}
+
+.setting label {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.setting label img {
+    border-radius: 50%;
+}
+
+.setting input[type=file] {
+    display: none;
+}
+
+.input-group-text {
+    width: auto;
+}

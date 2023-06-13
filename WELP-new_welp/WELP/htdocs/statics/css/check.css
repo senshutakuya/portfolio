@@ -1,0 +1,36 @@
+.content {
+    height: 90%;
+}
+
+.check {
+    width: 80%;
+    margin: auto;
+}
+
+.check h2 {
+    margin: 3vh auto;
+}
+
+.profile {
+    display: table;
+    margin: auto;
+}
+
+.card {
+    display: table-cell;
+    border: 0;
+}
+
+.card img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.btn {
+    margin: 1vh 0;
+}

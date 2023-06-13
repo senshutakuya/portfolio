@@ -1,0 +1,21 @@
+.alert.alert-success.d-flex.align-items-center {
+    width: 95%;
+    margin: 3% auto;
+}
+
+svg.bi.flex-shrink-0.me-2 {
+    width: auto;
+}
+
+.content {
+    height: 90%;
+}
+
+.message {
+    margin: 3vh auto;
+    width: 80%;
+}
+
+.btn {
+    margin: 20vh auto;
+}

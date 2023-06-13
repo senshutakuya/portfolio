@@ -1,0 +1,30 @@
+.content {
+    height: 90%;
+    text-align: center;
+}
+
+.alert.alert-danger.d-flex.align-items-center {
+    width: 95%;
+    margin: 3% auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+svg.bi.flex-shrink-0.me-2 {
+    width: auto;
+}
+
+.join .forms {
+    width: 80%;
+    margin: 3vh auto;
+}
+
+.join * {
+    margin-bottom: 2%;
+}
+
+.join h2 {
+    margin: 3vh auto;
+}

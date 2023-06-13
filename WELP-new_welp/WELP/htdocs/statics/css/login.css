@@ -1,0 +1,33 @@
+.content {
+    height: 100%;
+}
+
+.login h2 {
+    margin: 3vh auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.alert.alert-danger.d-flex.align-items-center {
+    width: 95%;
+    margin: 3% auto;
+}
+
+svg.bi.flex-shrink-0.me-2 {
+    width: auto;
+}
+
+.login .forms {
+    width: 80%;
+    margin: 5vh auto;
+}
+
+input {
+    margin-bottom: 3vh;
+}
+
+.btn {
+    margin: 2vh 0;
+}

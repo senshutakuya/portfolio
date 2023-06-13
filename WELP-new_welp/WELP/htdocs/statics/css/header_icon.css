@@ -1,0 +1,23 @@
+.logo-area {
+    width: 80%;
+}
+
+.logo-area a {
+    margin-left: 20%;
+}
+
+.icon-area {
+    width: 20%;
+    display: flex;
+}
+
+.icon-area img {
+    width: auto;
+    height: 70%;
+    margin: 15%;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    min-width: 50vw;
+}

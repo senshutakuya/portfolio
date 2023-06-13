@@ -1,0 +1,23 @@
+.footer {
+    background-color: white;
+    border-top: 1px solid;
+    height: 7%;
+    position: absolute;
+    bottom: 0;
+    display: table;
+}
+
+.icon,
+.icon a,
+.icon svg {
+    width: auto;
+}
+
+.icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.icon.createpost {
+    margin: 0 auto;
+}

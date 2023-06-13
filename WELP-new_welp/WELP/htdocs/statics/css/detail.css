@@ -1,0 +1,123 @@
+.detail {
+    height: 100%;
+}
+
+.post-origin {
+    height: 20%;
+    border-bottom: 1px solid black;
+    display: table;
+    padding: 3%;
+}
+
+.post-origin .icon,
+.post-origin .labels,
+.post-origin .favo {
+    display: table-cell;
+    height: fit-content;
+    vertical-align: middle;
+}
+
+.post-origin .icon {
+    width: 25%;
+}
+
+.post-origin .labels {
+    width: 50%;
+    margin: auto;
+}
+
+.post-origin .labels * {
+    margin: 5% auto;
+}
+
+.post-origin .favo {
+    width: 25%;
+}
+
+.post-origin .icon img {
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.post-origin .username {
+    font-size: 1.25rem;
+}
+
+.post-origin .favo .favorite-button {
+    width: auto;
+}
+
+.post-replies {
+    height: 80%;
+    overflow: scroll;
+}
+
+.post-box {
+    border-bottom: 1px solid gray;
+    padding: 2% 0;
+}
+
+.post-box:first-child {
+    border-top: 1px solid gray;
+}
+
+.post-box-top {
+    display: flex;
+}
+
+.post-box-icon {
+    width: 20%;
+}
+
+.post-box-icon img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.post-box-labels {
+    width: 80%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.post-box-labels-contents-content {
+    font-size: 20px;
+}
+
+.post-box-username {
+    font-weight: bold;
+}
+
+.post-box-bottom, .button-favo {
+    display: flex;
+}
+
+.button-favo {
+    width: 50%;
+    border-right: 1px solid gray;
+}
+
+.post-box .favorite-button,
+.post-box .button-detail {
+    padding: 0;
+    width: auto;
+    text-align: right;
+    margin-right: 3vw;
+    margin-left: 20vw;
+}
+
+.favorite-button svg,
+.button-detail svg {
+    width: auto;
+}
+
+.favorite-label {
+    width: 20%;
+    text-align: left;
+    margin: 0;
+}
+
+.button-reply {
+    text-align: left;
+    width: 50%;
+}
