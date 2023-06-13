@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="{{join_css}}">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </symbol>
+</svg>
+<div class="join">
+  <h2>アカウント作成</h2>
+  <div class="alert alert-danger d-flex align-items-center {{err_alert}}" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="24" height="24"><use xlink:href="#exclamation-triangle-fill"/></svg>
+    <div>
+      内容に不備があります ご確認ください
+    </div>
+  </div>
+  <div class="forms">
+    <form action="" method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="name" class="form-label">ユーザー名</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="254文字以内" max value="{{post_name}}">
+        <span class="text-danger">{{err_name}}</span>
+      </div>
+      <div class="mb-3">
+          <label for="email" class="form-label">メールアドレス</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" value="{{post_email}}">
+          <span class="text-danger">{{err_email}}</span>
+      </div>
+      <div class="mb-3">
+          <label for="password" class="form-label">パスワード</label>
+          <input type="password" name="password" class="form-control" id="password" placeholder="4桁以上" value="{{post_password}}">
+          <span class="text-danger">{{err_password}}</span>
+          <span class="text-danger">{{err_password_length}}</span>
+      </div>
+      <div class="mb-3">
+          <label for="image" class="form-label">アイコン画像</label>
+          <input type="file" name="image" class="form-control" id="image" accept="image/*">
+          <span class="text-danger">{{err_image_type}}</span>
+      </div>
+      <input type="submit" class="btn btn-primary btn-lg mb-3" value="入力内容を確認する">
+    </form>
+    <a href="{{login_url}}">
+      <button class="btn btn-success mb-3">ログインページに戻る</button>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="/statics/css/detail.css">
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">返信する</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post" id="post-form">
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">メッセージ:</label>
+                        <textarea class="form-control" id="message-text" name="content" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" form="post-form" class="btn btn-primary">送信</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="detail">
+    <div class="post-origin" id="{{post_origin_id}}">
+        <div class="icon">
+            <img src="{{icon_path}}">
+        </div>
+        <div class="labels">
+            <div class="info">
+                <span class="username">
+                    {{name}}
+                </span>
+                <span class="created_at">
+                    {{created_at}}
+                </span>
+            </div>
+            <div class="contents">
+                <span class="content">
+                    {{content}}
+                </span>
+            </div>
+        </div>
+        <div class="favo">
+            <button class="favorite-button" role="button">
+                <svg class="favorite-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="{{favorite_fill}}" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+        </div>
+    </div>
+    <div class="post-replies">
+        {{replies}}
+    </div>
+</div>
+
+<script src="/statics/js/favorite.js"></script>
