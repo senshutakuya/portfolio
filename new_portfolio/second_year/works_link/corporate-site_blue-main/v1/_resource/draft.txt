@@ -1,0 +1,88 @@
+----------【HTML】----------
+
+<!-- --- JavaScript ----->
+<!-- Font Awesome-->
+<script src="https://kit.fontawesome.com/b68fb17dce.js" crossorigin="anonymous"></script>
+
+----------
+
+SITE NAME
+
+会社概要
+事業紹介
+ニュース
+採用情報
+アクセス
+
+----------
+
+CORPORATE MESSAGE
+
+More Message
+
+----------
+
+NEWS
+ニュース
+
+ニュース一覧
+
+2022.10.28
+カテゴリ
+ニュース内容ニュース内容ニュース内容ニュース内容
+
+----------
+
+ABOUT
+会社概要
+
+SERVICE
+事業紹介
+
+RECRUIT
+採用情報
+
+ACCESS
+アクセス
+
+----------
+
+株式会社XXXXX
+
+CORPORATE MESSAGE
+わたしたちは、いかなる時も挑戦の心を忘れず、
+人々の暮らしをより良くするサービスを提供し続けます。
+
+----------
+
+〒169-0075
+東京都新宿区高田馬場2-11-10
+
+03-0000-1234（代表）
+03-0000-5678（FAX）
+
+----------
+
+&copy; XXXXX Co.Ltd. All rights reserved.
+
+----------
+
+Privacy Policy
+Site Policy
+Site Map
+
+----------
+
+CONTACT US
+お問い合わせ
+
+PAGE TOP
+ページ上部
+
+
+
+----------【CSS】----------
+
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+----------

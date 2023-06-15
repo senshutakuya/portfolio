@@ -1,0 +1,91 @@
+----------【HTML】----------
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&amp;family=PT+Serif&amp;display=swap">
+
+----------
+
+株式会社髙田工芸社
+
+----------
+top
+about
+works
+flow
+news
+contact
+recruit
+
+----------
+
+店舗内装家具・什器製造・内装工事
+技術で応える、髙田工芸社。
+
+----------
+
+about
+髙田工芸社について
+「技術は、仕事を選ばない。」
+
+髙田工芸社は、オーダー家具の製造を手がける
+家具製作会社として1954年に東京都内で誕生しました。
+
+髙田工芸社について詳しく見る
+
+<img src="https://placehold.jp/3d4070/ffffff/642x430.png?text=sample" alt="sample">
+<img src="https://placehold.jp/3d4070/ffffff/642x430.png?text=sample" alt="sample">
+<img src="https://placehold.jp/3d4070/ffffff/642x430.png?text=sample" alt="sample">
+
+----------
+
+news
+お知らせ
+
+sample
+<img src="https://placehold.jp/3d4070/ffffff/800x600.png?text=sample" alt="sample">
+求人募集中
+2021/07/15
+
+sample
+<img src="https://placehold.jp/3d4070/ffffff/800x600.png?text=sample" alt="sample">
+株式会社 髙田工芸社のWEBサイトがリニューアルしました
+2021/01/26
+
+その他のお知らせを見る
+
+----------
+
+works
+事例一覧
+
+sample
+<img src="https://placehold.jp/3d4070/ffffff/486x225.png?text=sample" alt="sample">
+
+----------
+
+flow
+ご注文の流れ
+sample
+<img src="https://placehold.jp/3d4070/ffffff/486x225.png?text=sample" alt="sample">
+
+株式会社髙田工芸社
+
+〒169-0075
+東京都新宿区高田馬場２丁目１１−１０
+TEL 03-3205-3611 / FAX 03-3207-1710
+
+----------
+
+&copy; 2021 takadakougeisya inc.com
+
+
+
+----------【CSS】----------
+
+font-family: YuGothic, "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+
+----------
+
+font-family: 'PT Serif', 'Noto Serif JP', serif;
