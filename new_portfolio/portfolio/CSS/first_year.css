@@ -1,0 +1,52 @@
+#header_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 150px; */
+    /* background-image: url(../image/logo.png);  */
+     /* width: 1000px; */
+
+ }
+
+.header_logo{
+    width: 100px;
+}
+
+.header_top{
+    margin-left: 20px;
+}
+
+.link_top{
+    margin-left: 20px;
+}
+
+#big_head{
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.wl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.works_link{
+
+    margin-left: 70%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img_size{
+    width: 400px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

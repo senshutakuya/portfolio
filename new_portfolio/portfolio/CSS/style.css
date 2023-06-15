@@ -1,0 +1,270 @@
+
+#header_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 150px; */
+    /* background-image: url(../image/logo.png);  */
+     /* width: 1000px; */
+
+ }
+
+.header_logo{
+    width: 100px;
+}
+
+.header_top{
+    margin-left: 20px;
+}
+
+.link_top{
+    margin-left: 20px;
+}
+/* .header_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .header_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+#big_head{
+    text-align: center;
+    font-size: 70px;
+}
+
+.big_headline{
+    text-align: center;
+    font-size: 50px;
+}
+
+.head_line{
+    text-align: center;
+    font-size: 35px;
+}
+
+.line{
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile_image{
+    width: 400px;
+}
+
+.self_introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.self{
+    margin-left: 50px;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.like_line{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.margin_like{
+    margin-left: 30px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* @media screen and (max-width:650px ) and (min-width:375px){ */
+    /* header{
+        width: 400px;
+    } */
+    /* .header_logo{
+        width: 100px;
+    }
+    .header_div{
+        display: flex;
+
+    }
+    .header_link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #big_head{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .big_headline{
+        text-align: center;
+        font-size: 20px;
+    }
+} */
+
+/*追加css*/
+
+/*viewmoreボタンの枠線消し、気に入らなかったら消して*/
+.viewmore {
+    border: none;
+    background: transparent;
+  }
+
+  /*ここまで*/
+
+  /*viewmoreボタンのcss*/
+
+  input.viewmore{
+    font-size: large;
+    border-bottom: solid;
+    margin-left: 47%;
+  }
+
+  /*ここまで*/
+
+
+  /*スケジュールの写真の大きさ・位置*/
+  /*クラスをそれぞれ別々にしたのは写真の大きさが異なる為*/
+  /*嫌ならimg1とかをなくしてimgだけ*/
+
+  .schedule_img1{
+    display:block;
+      margin-top: 5%;
+      
+      width: 50%;
+      
+  }
+
+  .schedule_img2{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .schedule_img3{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .schedule_img4{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .schedule_img5{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .schedule_img6{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .schedule_img7{
+    display:block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+  }
+
+  /*曜日文字位置調整*/
+
+.sche{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sss{
+    display: flex;
+    flex-direction: column;
+
+}
+/*works*/
+
+.wl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.works_link{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*ここまで*/
+
+
+/*map*/
+
+/*マップの位置・大きさ調整*/
+#map {
+    margin-left: 20%;
+    margin-bottom: 10%;
+    height: 400px;
+    width: 60%;
+  }
+
+  /*ここまで*/
+
+
+
+
+/*topに戻る*/
+
+.pagetop {
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+    background: #f8f7f6;
+    font-weight: bold;
+
+  /*   デフォルトは非表示 */
+    opacity: 0;
+  }
+  .pagetop:hover {
+      box-shadow: 0 0 10px #070707;
+  }
+
+  /*ここまで*/
