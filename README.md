@@ -1,2 +1,3 @@
 # portfolio
 ポートフォリオです
+new_portfolioとWELPは別の作品ですご了承ください
