@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>入力項目</title>
+</head>
+<body>
+  <form method="GET" action ="http://www.jz.jec.ac.jp/webbasic/form.php">
+    氏名： 
+    <input type="text" name="myname" value="権田原 権兵衛"><br>
+      メールアドレス： 
+    <input type="email" name="mymail" value="xx@xx.jp"><br>
+      パスワード： 
+    <input type ="password" name="mypw" value="pass"><br>
+      年齢： 
+    <input type ="number" name="myage" value="20">歳<br>
+      性別： 
+    <input type ="radio" name="mygender" value="M">男性 
+    <input type ="radio" name="mygender" value="U" checked>不明 
+    <input type ="radio" name="mygender" value="F">女性<br>
+      誕生日： 
+    <input type ="date" name="mybirthday" value="1999-01-31"><br>
+      誕生時刻： 
+    <input type ="time" name="mybirthtime" value="12:00"><br>
+      身長： 
+    低<input type="range" name="mytall" value="50">高<br>
+      体重： 
+    <select name="myweight"> 
+      <option value="H">ヘビー</option> 
+      <option value="M" selected>ミドル</option> 
+      <option value="L">ライト</option> 
+    </select><br>
+      写真： 
+    <input type ="file" name="myphoto"><br>
+      好きな色： 
+    <input type="color" name="mycolor" value="#ff0000"><br>
+      好きな季節： 
+    <input type ="checkbox" name="myseasons[]" value="H" checked>春
+    <input type ="checkbox" name="myseasons[]" value="N">夏 
+    <input type ="checkbox" name="myseasons[]" value="A" checked>秋
+    <input type ="checkbox" name="myseasons[]" value="F" >冬<br>
+      好きな理由：
+    <textarea name="mywords">夏は暑く、冬は寒い。</textarea><br>
+    （セッション ID）
+    <input type ="hidden" name="sessid" value="hoge1234"><br>
+    <hr>
+    <button type ="submit" name="action" value="send" >送信する</button>
+    <button type ="reset" >リセットする</button>
+    <button type ="submit" name="action" value="delete">削除</button>
+    <button type ="submit" name="action" value="modify">修正</button><br>
+  </form>
+
+</body>
+</html>

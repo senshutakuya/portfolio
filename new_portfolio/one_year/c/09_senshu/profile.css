@@ -1,0 +1,99 @@
+
+
+#all{
+width: 1000px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.profile{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+
+}
+
+.myface{
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid blue;
+    
+}
+
+.shoukai{
+    width: 400px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    border: blue 2px solid;
+    text-align: center;
+    color: turquoise;
+    background-color: white;
+}
+
+
+.jiko{
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    margin-top: 0px;
+    border: 2px solid blue;
+    text-align: center;
+    color: black;
+    background-color: white;
+
+
+}
+
+
+
+.url{
+    margin-top: 50px;
+    text-align: center;
+}
+
+body{
+    background-image: url(./青花候補２.jpg);
+    background-size: cover;
+
+ 
+
+}
+
+a{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+
+.kao{
+    width: 100px;
+    height: 40px;
+    margin-left: 120px;
+    margin-right: 500px;
+}
+
+.aaa{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.bbb{
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 460px;
+
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    }
