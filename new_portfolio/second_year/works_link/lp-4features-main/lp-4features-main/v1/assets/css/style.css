@@ -1,0 +1,110 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6em;
+    line-height: 1;
+    counter-reset: num 0;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    height: 100%;
+    background: #D1EFF1;
+}
+
+main {
+    padding: 10rem 0;
+}
+
+section {
+    width: 100rem;
+    margin: auto;
+    position: relative;
+    display: flex;
+    padding-left: 12rem;
+}
+section + section {
+    margin-top: 8rem;
+}
+
+h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #3AAEB2;
+    padding-top: 3.5em;
+}
+h2::before {
+    counter-increment: num 1;
+    content: counter(num, decimal-leading-zero);
+    font-family: serif;
+    position: absolute;
+    top: 0;
+    font-size: 3em;
+}
+h2 span {
+    writing-mode: vertical-lr;
+    padding-left: 0.5em;
+    transform: rotate(180deg);
+    border-left: 2px solid #3AAEB2;
+    letter-spacing: 0.1em;
+}
+h2 span.jp {
+    transform: rotate(180deg);
+    text-orientation: sideways-right;
+    border-left: 2px solid #3AAEB2;
+}
+
+img {
+    width: 40rem;
+}
+
+.text{
+    width: 48%;
+    margin-left: auto;
+}
+
+.item-copy {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    line-height: 2.2;
+}
+.item-copy span {
+    background: #3AAEB2;
+    padding: 0.25em;
+}
+
+.desc {
+    line-height: 1.6;
+}
+
+footer {
+    background: #3AAEB2;
+    color: white;
+    padding: 8rem 0;
+    text-align: center;
+}
+footer p {
+    width: 60rem;
+    margin: auto;
+    line-height: 1.6;
+}
+footer .foot-copy {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+footer .logo {
+    display: block;
+    margin: 4rem auto;
+}
