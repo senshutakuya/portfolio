@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+}
+
+.inner {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background: url("../img/golf1.jpg/") center/cover no-repeat;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    padding: 80px 0;
+}
+section h2 {
+    margin-bottom: 1em;
+}
+section p {
+    line-height: 1.8;
+}
+
+section#first {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    background: url("https://source.unsplash.com/N21z4eG8aKg/400x400") left center no-repeat;
+}
+section#first .inner {
+    width: 500px;
+    margin-right: 0;
+    margin-left: auto;
+}
+section#first p {
+    margin: 1em;
+}
+
+section#second .inner,
+section#third .inner {
+    text-align: center;
+}
+section#second p,
+section#third p {
+    margin-bottom: 3em;
+}
+
+section#second {
+    background: #f4f4f4;
+    padding-bottom: 0;
+}
+
+section#second .inner {
+    text-align: center;
+}
+
+footer {
+    background: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
