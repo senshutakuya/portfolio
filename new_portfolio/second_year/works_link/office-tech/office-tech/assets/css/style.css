@@ -1,0 +1,361 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+/*==================================
+*/
+/*		common
+*/
+/*================================*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  color: #212121;
+  font-size: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: inherit;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*==================================
+*/
+/*		header
+*/
+/*================================*/
+/*-------------------------
+/*	.first-view
+-------------------------*/
+.first-view {
+  height: 50vh;
+  background: #212121 url("https://source.unsplash.com/1RT4txDDAbM") center/cover no-repeat;
+  background-blend-mode: lighten;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0.1rem 0.1rem 0.2rem white;
+}
+.first-view h1 {
+  font-size: 3em;
+  font-style: italic;
+}
+.first-view .catch-copy {
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*-------------------------
+/*	.g-nav
+-------------------------*/
+.g-nav ul {
+  display: flex;
+  justify-content: center;
+  width: 80rem;
+  margin: auto;
+  padding: 4rem;
+}
+.g-nav li {
+  width: calc(100% / 5);
+  text-align: center;
+}
+.g-nav a {
+  font-weight: bold;
+}
+.g-nav a:hover {
+  letter-spacing: 0.2em;
+}
+
+/*==================================
+*/
+/*		main
+*/
+/*================================*/
+section p {
+  line-height: 1.8;
+}
+section p + p {
+  margin-top: 1em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+h2 .jp {
+  display: block;
+  font-size: 0.6em;
+  margin-top: 0.5em;
+  letter-spacing: 0.25em;
+}
+
+/*-------------------------
+/*	.btn_detail
+-------------------------*/
+.btn_detail {
+  display: inline-block;
+  color: white;
+  background: #EB4D0B;
+  padding: 1em;
+  margin-top: 2em;
+}
+.btn_detail:hover {
+  opacity: 1;
+  background: #d3450a;
+}
+
+/*==================================
+*/
+/*		#service
+*/
+/*================================*/
+#service {
+  height: 50vh;
+  position: relative;
+}
+#service h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  height: 2em;
+  margin: auto;
+  text-align: center;
+  color: white;
+  text-shadow: 0.1rem 0.1rem 0.1rem #212121;
+}
+#service ul {
+  display: flex;
+  height: 100%;
+}
+#service li {
+  width: calc(100% / 3);
+}
+#service li a {
+  display: block;
+  height: 100%;
+  position: relative;
+  background: center/cover no-repeat;
+}
+#service li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+#service li:nth-of-type(1) a {
+  background-image: url("https://source.unsplash.com/26MJGnCM0Wc");
+}
+#service li:nth-of-type(1) span {
+  background: #2ABE7A;
+}
+#service li:nth-of-type(2) a {
+  background-image: url("https://source.unsplash.com/J-e7xQD_KiU");
+}
+#service li:nth-of-type(2) span {
+  background: #2ABBD7;
+}
+#service li:nth-of-type(3) a {
+  background-image: url("https://source.unsplash.com/SYTO3xs06fU");
+}
+#service li:nth-of-type(3) span {
+  background: #F35F82;
+}
+
+/*==================================
+*/
+/*		#news
+*/
+/*================================*/
+#news {
+  width: 100rem;
+  margin: auto;
+  padding: 8rem 0 10rem;
+  position: relative;
+}
+#news h2 .jp {
+  display: inline-block;
+  margin-left: 1em;
+}
+#news table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#news tr:nth-of-type(even) {
+  background: #f4f4f4;
+}
+#news th {
+  padding: 1em 2em;
+}
+#news td {
+  padding: 1em 3em 1em 0;
+}
+#news td a {
+  text-decoration: underline;
+}
+#news td a:hover {
+  text-decoration: none;
+}
+#news .tag {
+  display: inline-block;
+  width: 5em;
+  text-align: center;
+  color: white;
+  padding: 0.25em 0.5em;
+  margin-right: 2em;
+  text-align-last: justify;
+}
+#news .tag.info {
+  background: #036EB8;
+}
+#news .tag.media {
+  background: #F26C8D;
+}
+#news .tag.anniv {
+  background: #f1aa46;
+}
+#news .btn_detail {
+  position: absolute;
+  right: 0;
+  bottom: 2em;
+}
+
+/*==================================
+*/
+/*		#about
+*/
+/*================================*/
+#about {
+  height: 40vh;
+  padding-top: 10vh;
+  padding-left: 50%;
+  background: #ccc url("https://source.unsplash.com/ZMK4lzeuCLo") center/cover no-repeat;
+  background-blend-mode: darken;
+  color: white;
+}
+#about h2,
+#about p {
+  text-shadow: 0.1rem 0.1rem 0.4rem #212121;
+}
+
+/*==================================
+*/
+/*		#recruit
+*/
+/*================================*/
+#recruit {
+  width: 100rem;
+  margin: auto;
+  padding: 8rem 0;
+  position: relative;
+}
+#recruit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 80%;
+  height: 100%;
+  border-bottom-left-radius: 100rem;
+  background: url("https://source.unsplash.com/YI_9SivVt_s") center bottom/cover no-repeat;
+  background-blend-mode: luminosity;
+  background-color: white;
+  z-index: -1;
+  filter: blur(0.2rem);
+  opacity: 0.25;
+}
+
+/*==================================
+*/
+/*		#contact
+*/
+/*================================*/
+#contact {
+  background: #212121 url("https://source.unsplash.com/_dJCBtdUu74") center/cover no-repeat;
+  padding: 8rem 0;
+}
+#contact h2 {
+  color: white;
+  text-align: center;
+}
+#contact .inner {
+  width: 100rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+#contact dl {
+  width: 48%;
+}
+#contact dt {
+  padding: 0.5em 1em;
+  background: white;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#contact label {
+  display: block;
+}
+#contact label:hover {
+  cursor: pointer;
+}
+#contact .form-left {
+  display: flex;
+  flex-direction: column;
+}
+#contact .form-left .item {
+  display: flex;
+}
+#contact .form-left .item + .item {
+  margin-top: auto;
+}
+#contact .form-left dt {
+  width: 10em;
+}
+#contact .form-left dd {
+  width: calc(100% - 10em);
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.5em;
+  background: #c1d4f6;
+}
+#contact textarea {
+  height: 10em;
+  resize: none;
+  overflow-y: auto;
+}
+
+/*==================================
+*/
+/*		footer
+*/
+/*================================*/
+footer {
+  padding: 2rem 0;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+----------【HTML】----------
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+----------
+
+ホーム ページ１ ページ２ ページ３ ページ４
+
+----------
+
+セクション１
+Site Name
+セクション２
+セクション３
+セクション４
+
+----------
+
+見出し
+
+説明文説明文説明文説明文説明文説明文説明文説明文説明文
+説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+説明文説明文説明文説明文説明文説明文
+
+リンクボタン
+
+----------
+
+Heading
+見出し
+テキストテキストテキストテキストテキストテキスト
+
+----------
+
+見出し
+テキストテキストテキストテキスト
+
+<img src="https://placehold.jp/400x300.png?text=sample" alt="sample">
+sample
+画像の説明
+
+<img src="https://placehold.jp/400x300.png?text=sample" alt="sample">
+sample
+画像の説明
+
+<img src="https://placehold.jp/400x300.png?text=sample" alt="sample">
+sample
+画像の説明
+
+----------
+
+リンク集１
+
+リンク
+リンク
+リンク
+
+リンク集２
+
+リンク
+リンク
+リンク
+
+リンク集３
+
+リンク
+リンク
+リンク
+
+----------
+
+テキストテキストテキストテキスト
+
+&gt;
+
+FOLLOW US
+
+----------
+
+&copy; minimal
+
+
+
+----------【CSS】----------
+
+@import url(reset.css);
+@import url("http://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+@import url("https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css");

@@ -1,0 +1,106 @@
+----------【HTML】----------
+
+OFFICE TECH
+もっと働きやすい職場のためのモノづくり
+
+----------
+
+SERVICE
+NEWS
+ABOUT
+RECRUIT
+CONTACT
+
+----------
+
+SERVICE
+事業紹介
+
+オフィスソリューション
+オフィスプランニング
+インターネットサービス
+
+----------
+
+NEWS
+ニュース
+
+2022.06.10	メディア 『住宅情報ウェブ』で、業務提携に関する記事が掲載されました
+2022.06.01	お知らせ 業務提携の開始のお知らせ
+2022.05.27	メディア 『BIZ NEWS』で、弊社代表のインタビューが掲載されました
+2022.05.15	記念 創業12周年を迎えました
+2022.04.29	お知らせ プライバシーポリシー改定のお知らせ
+
+ニュース一覧を見る
+
+----------
+
+ABOUT
+会社情報
+
+働き方が多様化する中で、最適なオフィスを構築するためのサービスを展開しています。
+
+創業以来、スタートアップ企業のオフィス新設から大企業の移転プロジェクトまで、
+幅広くオフィス移転をお手伝いしています。
+
+会社情報を見る
+
+----------
+
+RECRUIT
+採用情報
+
+よりよいオフィスづくりを実現するため、共に挑戦する仲間を募集しています。
+
+お客様の目線で徹底的に考え、ビジョンや方向性を示す。
+具体的なプランに落とし込む。言葉をつくして、ご理解いただく。
+その使命を担うのが、私たち仕事です。
+
+新しい価値を創造し、新たな扉を開きにいきましょう。
+
+採用情報を見る
+
+----------
+
+CONTACT
+お問い合わせ
+
+お名前
+御社名
+メールアドレス
+電話番号
+
+お問い合わせ内容
+
+----------
+
+2022 OFFICE TECH
+
+
+
+----------【CSS】----------
+
+/* リセットCSS */
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+
+/* .first-view */
+https://source.unsplash.com/1RT4txDDAbM
+
+/* #service 1 */
+https://source.unsplash.com/26MJGnCM0Wc
+
+/* #service 2 */
+https://source.unsplash.com/J-e7xQD_KiU
+
+/* #service 3 */
+https://source.unsplash.com/SYTO3xs06fU
+
+/* #about */
+https://source.unsplash.com/ZMK4lzeuCLo
+
+/* #recruit */
+https://source.unsplash.com/YI_9SivVt_s
+
+/* #contact */
+https://source.unsplash.com/_dJCBtdUu74
